@@ -1,0 +1,464 @@
+body{
+    background: url('../image/download.png') no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+}
+  .container-x{
+      position: relative;
+  }
+
+ .imaaage{
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    background-color: #333;
+    opacity: .7;
+}
+
+.face{
+    height: 650px;
+}
+/* Start Section  */
+section{
+    background-color: #e7e5e5c2;
+    height: 600px;
+    padding-top: 50px;
+}
+section h1{
+    font-weight: bold;
+    padding-bottom: 17px;
+}
+
+section h1::first-letter{
+    color: #DC143C;
+}
+
+section p{
+    color: #444;
+    font-size: 15px;
+}
+section .lead::first-letter{
+    color: #DC143C;
+}
+
+section .About-our h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section .About-our p{
+    line-height: 1.7;
+    color: rgb(116 114 114);
+    font-size: 16px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px){
+
+    section{
+        height: 850px;
+    }
+    section .About-our{
+        text-align: center !important;
+    }
+}
+/* End Section  */
+
+
+/* Start Course */
+.Courses{
+    margin-top: 14%;
+    margin-bottom: 13%;
+    padding-top: 60px;
+    background: #020202db;
+    height: 700px;
+}
+
+.Courses h1{
+    color: #FFF;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.Courses h1 span{
+    color: #DC143C;
+  
+}
+
+.Courses h1::first-letter{
+    color: #f0e9ea;
+  
+}
+
+.Courses .cour{
+    background-color: #FFF;
+    box-shadow: 6px 0 10px rgb(202, 199, 199);
+    padding: 0;
+    margin-left: 2%;
+    transition: all 1s ease;
+    
+}
+.Courses .cour img{
+    border-bottom: 1px solid #8f2c2c;
+}
+.Courses .cour h3,
+.Courses .cour p{
+       padding-left: 10px;
+       padding-right: 5px;
+       margin-top: 20px;  
+       font-size: 13px;
+}
+.Courses .cour h3{
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 1s linear;
+}
+.Courses .cour p{
+    color: rgb(116 114 114);
+}
+.Courses .cour:hover{
+    transform: scale(1.1); 
+    border-left: 2px solid #DC143C;
+    border-right: 2px solid #DC143C;
+
+}
+.Courses .cour:hover > h3{
+    color: #DC143C
+    
+}
+
+@media (min-width: 450px) and (max-width: 767px){
+    .Courses{
+        height: 29%;
+    }
+    .Courses .cour{
+        margin: 0;
+        margin-bottom: 5%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .Courses{
+        height: 18%;
+    }
+    .Courses .cour{
+        margin-bottom: 5%;
+    }
+    .col-sm-6{
+        width: 48%;
+}
+}
+
+@media Screen and (min-width: 992px){
+    .col-md-3{
+            width: 23%;
+    }
+}
+
+/* End Course  */
+
+/* Start OurFeaturns */
+.OurFeaturns{
+    background-color: #ffffffd6;
+    height: 800px;
+}
+
+.OurFeaturns h1{
+    padding-top: 50px;
+    font-weight: bold;
+}
+.OurFeaturns  h1::first-letter{
+    color: #DC143C;
+}
+.OurFeaturns  h1 span::first-letter{
+    color: #11b42c;
+}
+
+
+/* End OurFeaturns */
+
+
+/* Start Our Content */
+
+.Content-us{
+    background-color: #020202db;
+    height: 700px;
+    
+}
+
+.Content-us h1{
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: #EEE;
+}
+
+.Content-us input,
+.Content-us textarea,
+.Content-us i
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 90%;
+    margin-top: 2%;
+    border: 1px solid #AAA;
+    border-radius: 7px;
+    transition: all .5s ease-in-out;
+}
+
+.Content-us textarea{
+    height: 200px;
+    padding-top: 0;
+    color: #777;
+}
+
+
+.Content-us input:hover,
+.Content-us textarea:hover{
+    border: 2px solid #DC143C;
+}
+
+.Content-us .location h3{
+    color: #FFF;
+    font-size: 25px;
+}
+
+.Content-us .location bold{
+    font-size: 20px;
+    color: #AAA;
+    padding-left: 5px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid;
+}
+.Content-us .location span{
+    margin-right: 1%;
+}
+
+
+.Content-us .glyphicon-map-marker{
+    color: #DC143C;
+    
+}
+
+.Content-us .location .mapouter{
+    top:100px;
+}
+
+@media Screen and (min-width: 450px) and (max-width: 767px){
+    .Content-us {
+        text-align: center;
+        height: 1100px !important;
+    }
+   .Content-us .location .mapouter,
+   .Content-us .location .gmap_canvas,
+   .Content-us .location  iframe{
+        width: 440px;
+    }
+}
+
+@media Screen and (min-width: 755px)  and (max-width: 991px){ 
+    .Content-us {
+        text-align: center;
+        height: 1100px !important;
+    }
+    .Content-us .mapouter,
+    .Content-us  .gmap_canvas,
+    .Content-us  iframe{
+         width: 100% !important;
+        
+     }
+}
+/* End Our Content  */
+
+/* Start Footer*/
+
+.Footer{
+    background-color: #111;
+    height: 405px;
+    padding-top: 50px;
+    color: #FFF;
+}
+.Footer h1{
+    padding-top: 30px;
+    font-weight: bold;
+
+}
+.Footer h1 span{
+    color:#DC143C;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+.Footer h3{
+     font-weight: bold;
+     font-size: 30px;
+}
+
+.Footer span{
+    color:#dbd9d9;
+    font-size: 17px;
+    line-height: 2.2;
+}
+
+.Footer .glyphicon{
+    color :#DC143C
+}
+
+.Footer .copyright{
+    position: relative;
+    left: 40%;
+    top: 70px;
+    color: #AAA;
+    font-size: 18px;
+}
+
+
+@media (min-width: 450px) and (max-width: 768px){
+    .Footer{
+      height: 100% !important;
+}
+ .Footer h1{
+     text-align: center;
+ }
+ .Footer span  {
+    font-size: 14px ;
+ }
+ 
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+    .Footer{
+      height: 100% !important;
+}
+ .Footer h1{
+    text-align: center;
+}
+   
+
+}
+/* End Footer*/
+
+
+
+
+/* Start change with code BootStrap */
+
+/* Navbar */
+
+.navbar-inverse{
+    background: black;
+    border: none;
+
+}
+
+
+.navbar-inverse .navbar-nav > li > a{
+    color: #FFF;
+    font-size: 17px;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #DC143C;
+}
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover, 
+ .navbar-inverse .navbar-nav > .active > a:focus {
+     background-color: #DC143C;
+     margin: 0;
+      
+ }
+ .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+     padding-top: 10px;
+     padding-bottom: 10px;
+
+ }
+
+
+/* navbar brand */
+ .navbar-inverse .navbar-brand{
+     color:#FFF;
+     font-size: 30px;
+ }
+ @media screen and (min-width: 768px){
+    .navbar-inverse .navbar-brand{
+        line-height: 1.3 !important;
+    }
+ }
+
+ .navbar-inverse .navbar-brand span{
+    color:#DC143C;
+}
+
+.navbar-inverse .navbar-brand:hover{
+    color:#DC143C;
+
+ }  
+
+
+/* Dropdown */
+.navbar-nav > li > .dropdown-menu {
+    background-color: #141212;
+    border-top: 2px solid #DC143C;
+  
+}
+.dropdown-menu > li > a{
+    color: #FFF;
+    line-height: 2.4;
+}
+.dropdown-menu > li > a:hover{
+    background-color: #DC143C;
+    color: #FFF;
+}
+
+.navbar-right .dropdown-menu{
+    left: 0;
+    right: auto;
+}
+
+.dropdown-menu .divider{
+    background-color: #8f2c2c;
+}
+
+/*  Our Course */
+.Courses .img-responsive{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+/* our Featurns Slideshow */
+.OurFeaturns .img-responsive, .thumbnail > img,
+ .thumbnail a > img,
+  .carousel-inner > .item > img,
+   .carousel-inner > .item > a > img{
+    height: 550px;
+    width: 100%;
+    padding-top: 30px;
+    object-fit: cover;
+
+}
+.carousel-indicators {
+    bottom: 5px;
+}
+
+.carousel-indicators li{
+    padding: 6px;
+}
+
+.carousel-indicators .active{
+        background-color:#DC143C;
+        border: 1px solid silver;
+
+}
+
+/* End change with code BootStrap */
+.fadeHide{
+    transition: all .5s ease;
+}
+
+
+
